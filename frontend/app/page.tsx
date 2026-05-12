@@ -67,7 +67,7 @@ const ERROR_TYPE_COLORS = {
 };
 
 // ---------------------------------------------------------------------------
-// Helpers
+// Helpers methods
 // ---------------------------------------------------------------------------
 function classifyMatch(m: Match): "Replace" | "Insert" | "Remove" {
   if (m.message.startsWith("Insert")) return "Insert";
