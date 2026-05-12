@@ -8,6 +8,7 @@ The model (~890MB) is downloaded once on first request and cached to
 ~/.cache/huggingface, then runs offline forever after.
 """
 
+# this is a script file for grammer checker
 import difflib
 import re
 from typing import Optional
