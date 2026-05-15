@@ -16,9 +16,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-// ---------------------------------------------------------------------------
-// Types — must match backend schema in main.py
-// ---------------------------------------------------------------------------
 type Match = {
   message: string;
   short_message: string | null;
