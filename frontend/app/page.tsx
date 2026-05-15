@@ -100,9 +100,6 @@ function bucketMatchesBySentence(text: string, matches: Match[]) {
   }));
 }
 
-// ---------------------------------------------------------------------------
-// Page
-// ---------------------------------------------------------------------------
 export default function Home() {
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
