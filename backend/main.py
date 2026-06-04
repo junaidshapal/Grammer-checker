@@ -34,10 +34,6 @@ model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
 model.eval()  # inference mode
 print("[grammar] Model ready.")
 
-
-# ---------------------------------------------------------------------------
-# Schemas
-# ---------------------------------------------------------------------------
 class TextIn(BaseModel):
     text: str = Field(..., description="Text to check for grammar")
 
