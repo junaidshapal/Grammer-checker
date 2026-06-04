@@ -6,8 +6,6 @@ export const metadata: Metadata = {
   description: "Detect and fix English grammar mistakes with AI.",
 };
 
-// Inline script that runs before paint to apply the saved theme without a
-// flash of the wrong color scheme.
 const themeScript = `
 (function() {
   try {
