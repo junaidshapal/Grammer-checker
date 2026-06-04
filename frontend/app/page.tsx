@@ -63,9 +63,6 @@ const ERROR_TYPE_COLORS = {
   Remove: "#f43f5e", // rose-500
 };
 
-// ---------------------------------------------------------------------------
-// Helpers methods
-// ---------------------------------------------------------------------------
 function classifyMatch(m: Match): "Replace" | "Insert" | "Remove" {
   if (m.message.startsWith("Insert")) return "Insert";
   if (m.message.startsWith("Remove")) return "Remove";
